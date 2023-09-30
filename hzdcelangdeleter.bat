@@ -1,5 +1,10 @@
 @ECHO OFF
 :: yes this was typed by hand
+echo Horizon Zero Dawn: Complete Edition Language Deleter
+echo By SirGamers
+echo This script will save 15 GBs of space by deleting all of the language files except for English
+echo WARNING: DO NOT CHANGE THE LANGUAGE AFTER THIS SCRIPT, AS IT MAY BREAK YOUR GAME (I DO NOT KNOW FOR SURE BUT IT IS A HIGH CHANCE)
+pause
 del DLC1_Arabic.bin
 del Initial_Arabic.bin
 del Remainder_Arabic.bin
@@ -41,3 +46,6 @@ del Initial_Spanish.bin
 del Remainder_Spanish.bin
 echo Spanish deleted sucessfully
 del Remainder_Swedish.bin
+echo The script is done!
+echo If the game updates or you verify the game files, you will (most likly) have to run this script again
+pause
